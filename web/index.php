@@ -1,4 +1,9 @@
-<?php include "php/cookie-message.php"; ?>
+<?php include "php/cookie-message.php"; 
+$app->get('/cowsay', function() use($app) {
+  $app['monolog']->addDebug('cowsay');
+  return "<pre>".\Cowsayphp\Cow::say("Cool beans")."</pre>";
+});
+?>
 
 <head>
   <link rel="stylesheet" href="styles/style.css">
