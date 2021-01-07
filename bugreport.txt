@@ -1,0 +1,2 @@
+1. Some images give unkown error
+2. If just press post without an image uplaoded still uploads an empty file to db

@@ -1,0 +1,129 @@
+.header{
+    color: white;
+    font-size: 72px;
+    text-align: center;
+}
+
+.single-item-container{
+    height: 500px;
+    padding-bottom:15px;
+    padding-top:15px;
+    display: grid;
+    grid-template-columns: 15% 20% 40% 25%;
+    border: 3px solid #df42f4;
+    border-top: 0px;
+}
+
+.single-item-container-top{
+    height: 500px;
+    padding-bottom:15px;
+    padding-top:15px;
+    display: grid;
+    grid-template-columns: 15% 20% 40% 25%;
+    border: 3px solid #df42f4;
+}
+
+.leaderboard-container div{
+    color: white;
+}
+
+.number{
+    font-size: 90px;
+    padding-left: 3px;
+}
+
+.title-description{
+    margin-right: 15px;
+}
+
+.image-leaderboard{
+    height: 450px;
+    max-width: 500px;
+    max-height: 450px;
+    padding-right: 50px;
+}
+
+.comment-title{
+    margin: 0px;
+    color: white;  
+}
+
+.comment-info{
+    font-size: 11px;
+    color: #d0d0d0;
+    margin: 0px;
+}
+
+.comment-text{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    max-width: 420px;
+}
+
+.comment-single{
+    font-family: arial;
+    background-color: #df42f4;
+    margin: 3px;
+    margin-bottom: 5px;
+    outline-width: 2px;
+    outline-color: #df42f4;
+    outline-style: outset;
+}
+
+.comments{
+    margin-right: 15px;
+    box-shadow: 0 0 15px #f0f0f0;
+    height: 500px;
+    background-color: #e0e0e0;
+}
+
+.comments-post{
+    background-color: #df42f4;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 2px;
+    padding-left: 2px;
+    height: 135px;
+    outline-color: #df42f4;
+    outline-style: outset;
+}
+
+.comments-post-name{
+    margin: 5px;
+}
+
+.comments-post-text{
+    width: 435px;
+    height: 50px;
+    margin: 5px;
+}
+
+.comments-post-button{
+    color: darkorchid;
+    width: 30%;
+    height: 20%;
+}
+
+.comments-display{
+    background-color:#df42f4;
+    height: 350px;
+    overflow: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+    outline-color: #df42f4;
+    outline-style: ridge;
+    
+}
+
+.empty-message{
+    text-align: center;
+    font-size: 14px;
+    color: #202020;
+}
+
+
+.comments-display{
+    background-color: #ef94ec;
+}

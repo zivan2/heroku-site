@@ -1,0 +1,15 @@
+alias graph='git log --oneline --all --graph --decorate'
+
+alias fe='git fetch'
+alias pu='git push origin'
+
+alias pum='git push origin master'
+
+alias pl='git pull'
+alias plm='git merge origin/master'
+
+alias al='git add .'
+
+alias cm='git commit -m "lazy message"'
+
+alias cmm='git commit -m'

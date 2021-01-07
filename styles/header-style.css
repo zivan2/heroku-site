@@ -1,0 +1,40 @@
+.header{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.topnav {
+    background-color: #ef94ec;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    border-radius: 25px;
+    border-width: 1px;
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    border-radius: 25px;
+    background-color: #f7a0f4;
+    color: white;
+    border-width: 1px;
+    border-color: white;
+}
+
+.empty{
+    width: 64px;
+    float: left;
+    color: #ef94ec;
+}
